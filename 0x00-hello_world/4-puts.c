@@ -1,2 +1,13 @@
-#!/bin/bash
-puts("\"Programming is like building a multilingual puzzle\0");
+
+#include<stdio.h>
+
+/* hello puts */
+
+int main(void)
+{
+	char Mystr[] = "\"Programming is like building a multilingual puzzle\0";
+
+	puts(Mystr);
+
+	return (0);
+}
