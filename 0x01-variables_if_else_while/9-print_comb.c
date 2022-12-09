@@ -13,7 +13,7 @@ int main(void)
 		putchar('0' + a);
 		if (a == 9)
 		{
-			putchar('$');
+			continue;
 		}
 		else
 		{
@@ -21,5 +21,6 @@ int main(void)
 			putchar(' ');
 		}
 	}
+	piychar('\n');
 	return (0);
 }
