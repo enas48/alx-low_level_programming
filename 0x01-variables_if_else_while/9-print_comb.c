@@ -21,6 +21,6 @@ int main(void)
 			putchar(' ');
 		}
 	}
-	piychar('\n');
+	putchar('\n');
 	return (0);
 }
