@@ -14,7 +14,7 @@ int main(void)
 		{
 			for (c = b; c <= 9; ++c)
 			{
-				if ((a == b) | (b == c) | (a == b == c))
+				if ((a == b) | (b == c) | ((a == b) == c))
 				{
 					continue;
 				}
