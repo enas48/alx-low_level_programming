@@ -1,10 +1,9 @@
 #include<stdio.h>
 #include "main.h"
-
 /**
  * main - Description: c
  * Return: 0
-*/
+ */
 int main(void)
 {
 	print_alphabet();
