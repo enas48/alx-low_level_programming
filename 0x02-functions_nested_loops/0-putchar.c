@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include <string.h> 
 
 /**
  * main - Description: c
@@ -7,14 +6,12 @@
 */
 int main(void)
 {
-	char c[10] = "_putchar";
-	int length = strlen(c);
-	int a = 0;
+	char *c = "_putchar";
 
-	while (a < length)
+	while (*c)
 	{
-		putchar(c[a]);
-		a++;
+		putchar(*c);
+		c++;
 	}
 	putchar('\n');
 	return (0);
