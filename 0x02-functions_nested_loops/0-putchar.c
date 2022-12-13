@@ -10,9 +10,9 @@ int main(void)
 
 	while (*c)
 	{
-		putchar(*c);
+		_putchar(*c);
 		c++;
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }

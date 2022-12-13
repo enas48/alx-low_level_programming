@@ -1,26 +1,17 @@
-#include<stdio.h>
+#include <stdio.h>
 #include "main.h"
+
 /**
- * main - Description: c
- * Return: 0
- */
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
-/**
- * print_alphabet - Description: c
- * Return: 0
+ * print_alphabet - Description: alphabet
+ * Return: abcdef..z
 */
-int print_alphabet(void)
+void print_alphabet(void)
 {
 	char c;
 
 	for (c = 'a'; c <= 'z'; ++c)
 	{
-		putchar(c);
+		_putchar(c);
 	}
-	putchar('\n');
-	return (0);
+	_putchar('\n');
 }
