@@ -10,25 +10,17 @@ void print_to_98(int n)
 {
 	int i = n;
 
-	while (i < 99)
+	while (i < 98)
 	{
 		printf("%d", i);
-		if (i == 98)
-		{
-			break;
-		}
 		printf(", ");
 		i++;
 	}
-	while (i > 97)
+	while (i > 98)
 	{
 		printf("%d", i);
-		if (i == 98)
-		{
-			break;
-		}
 		printf(", ");
 		i--;
 	}
-	_putchar('\n');
+	printf("98\n");
 }
